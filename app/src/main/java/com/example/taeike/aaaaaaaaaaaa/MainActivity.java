@@ -1,7 +1,6 @@
 package com.example.taeike.aaaaaaaaaaaa;
 
 import android.app.Activity;
-import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -24,6 +23,5 @@ public class MainActivity extends Activity {
     @Click(R.id.button)
     void myButton(){
         String name =  textText.getText().toString();
-        textText2.setText(name);
     }
 }
