@@ -55,4 +55,13 @@
         android:layout_alignTop="@+id/textView3"
         android:layout_toEndOf="@+id/button" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/textView6"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_toStartOf="@+id/textView2" />
+
 </RelativeLayout>
